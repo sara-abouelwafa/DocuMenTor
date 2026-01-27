@@ -38,6 +38,7 @@ html, body {
   color: #fff;
   text-decoration: none;
   font-family: Poppins, Inter, system-ui;
+  display: block;
 }
 
 .sidebar-nav {
