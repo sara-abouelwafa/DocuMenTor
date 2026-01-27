@@ -2,6 +2,5 @@ title: DocuMenTor Project Website
 description: Project website
 baseurl: "/DocuMenTor"
 url: "https://sara-abouelwafa.github.io"
-# switching to a custom layout/CSS rather than a packaged theme so we can
-# more closely match the requested design and customize the theme.
+
 theme: null
