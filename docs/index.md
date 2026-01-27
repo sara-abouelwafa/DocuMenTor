@@ -2,7 +2,6 @@
 layout: default
 title: DocuMenTor
 ---
-
 <section class="container hero">
   <div class="left">
     <h1>DocuMenTor</h1>
