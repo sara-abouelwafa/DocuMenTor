@@ -186,9 +186,10 @@ main {
 /* Cards */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 28px;
+  max-width: 800px;
 }
 
 .card {
