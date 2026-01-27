@@ -9,24 +9,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/DocuMenTor/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+    <!-- Left sidebar navigation -->
+    <aside class="sidebar" role="navigation" aria-label="Sidebar navigation">
+      <div class="sidebar-header">
+        <a href="/DocuMenTor/" class="sidebar-logo">DocuMenTor</a>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="/DocuMenTor/" class="sidebar-link">
+          <span class="material-icons">home</span>
+          <span>Home</span>
+        </a>
+        <a href="https://github.com//DocuMenTor" class="sidebar-link" target="_blank">
+          <span class="material-icons">code</span>
+          <span>GitHub</span>
+        </a>
+        <a href="/DocuMenTor/docs/" class="sidebar-link">
+          <span class="material-icons">description</span>
+          <span>Docs</span>
+        </a>
+        <a href="/DocuMenTor/about.html" class="sidebar-link">
+          <span class="material-icons">info</span>
+          <span>About</span>
+        </a>
+        <a href="mailto:your-email@example.com" class="sidebar-link">
+          <span class="material-icons">email</span>
+          <span>Contact</span>
+        </a>
+      </nav>
+    </aside>
+
     <!-- colorful top band similar to the requested design -->
     <div class="color-top" aria-hidden="true"></div>
 
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="/DocuMenTor/"><span class="logo-accent">DocuMenTor</span></a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="/DocuMenTor/">Home</a>
-          <a href="/DocuMenTor/about.html">About</a>
-          <a href="/DocuMenTor/docs/">Docs</a>
-        </nav>
-      </div>
-    </header>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="logo" href="/DocuMenTor/"><span class="logo-accent">DocuMenTor</span></a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="/DocuMenTor/">Home</a>
+            <a href="/DocuMenTor/about.html">About</a>
+            <a href="/DocuMenTor/docs/">Docs</a>
+          </nav>
+        </div>
+      </header>
 
-    <main>
-      <section class="container hero">
+      <main>
+        <section class="container hero">
   <div class="left">
     <h1>DocuMenTor</h1>
     <p>Generate, validate and maintain documentation with ease. Lightweight, extensible and focused on developer workflows.</p>
@@ -55,10 +86,11 @@
   <p class="muted">Clone the repo, edit <code>docs/index.md</code> and push to GitHub to publish.</p>
 </section>
 
-    </main>
+      </main>
 
-    <footer class="site-footer">
-      <div class="container">© 2026 DocuMenTor</div>
-    </footer>
+      <footer class="site-footer">
+        <div class="container">© 2026 DocuMenTor</div>
+      </footer>
+    </div>
   </body>
 </html>
