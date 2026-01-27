@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+# Use the GitHub Pages gem to ensure the site builds the same way GitHub will render it.
+# This also pulls in a compatible Jekyll and recommended plugins.
+gem "github-pages", group: :jekyll_plugins

@@ -1,0 +1,16 @@
+current directory: /Users/sara/dev/DocuMenTor/docs/.bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/sara/.rbenv/versions/3.1.4/bin/ruby -I /Users/sara/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/sara/dev/DocuMenTor/docs/.bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260127-83555-7a3u17 sitelibdir\=./.gem.20260127-83555-7a3u17 clean
+
+current directory: /Users/sara/dev/DocuMenTor/docs/.bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260127-83555-7a3u17 sitelibdir\=./.gem.20260127-83555-7a3u17
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/sara/dev/DocuMenTor/docs/.bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260127-83555-7a3u17 sitelibdir\=./.gem.20260127-83555-7a3u17 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260127-83555-7a3u17/racc
