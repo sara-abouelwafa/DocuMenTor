@@ -1,0 +1,5 @@
+title: DocuMenTor
+description: Project website
+baseurl: "/DocuMenTor"
+url: "https://sara-abouelwafa.github.io"
+theme: jekyll-theme-minimal
