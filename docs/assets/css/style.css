@@ -13,9 +13,9 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#02060a 0%,var(
 .container{max-width:1100px;margin:0 auto;padding:0 20px}
 .site-header{background:rgba(0,0,0,0.15);backdrop-filter:blur(4px);padding:18px 0;position:sticky;top:0;z-index:40}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:700;color:var(--text);text-decoration:none;font-size:20px}
-.logo-accent{font-family:Poppins, Inter, system-ui;letter-spacing:0.6px;color:var(--accent)}
-.site-nav a{color:var(--muted);text-decoration:none;margin-left:20px;padding:8px 10px;border-radius:6px}
+.logo{font-weight:800;color:#ffffff;text-decoration:none;font-size:34px}
+.logo-accent{font-family:Poppins, Inter, system-ui;letter-spacing:0.6px;color:#ffffff;font-size:34px}
+.site-nav a{color:rgba(255,255,255,0.95);text-decoration:none;margin-left:20px;padding:8px 10px;border-radius:6px}
 /* Light theme variables for white background with colorful top band */
 :root{
   --bg: #ffffff;
@@ -85,11 +85,11 @@ section.container{padding-top:28px;padding-bottom:28px}
 .muted{color:var(--muted)}
 .text-center{text-align:center}
 /* colorful top band */
-.color-top{height:140px;background:var(--top-gradient);width:100%;position:relative}
-.color-top::after{content:'';position:absolute;left:0;right:0;bottom:-40px;height:80px;background:linear-gradient(180deg,rgba(255,255,255,0) 0%, #ffffff 100%);border-bottom-left-radius:60% 40px;border-bottom-right-radius:60% 40px}
+.color-top{height:160px;background:#37124a;width:100%;position:relative}
+.color-top::after{content:'';position:absolute;left:0;right:0;bottom:-48px;height:96px;background:linear-gradient(180deg,rgba(55,18,74,0) 0%, #ffffff 100%);border-bottom-left-radius:60% 48px;border-bottom-right-radius:60% 48px}
 
 /* ensure content sits slightly overlapping the band */
-.site-top-space{height:110px}
+.site-top-space{height:120px}
 
 /* Footer columns */
 .site-footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
