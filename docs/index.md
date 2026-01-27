@@ -1,10 +1,7 @@
----
-layout: default
-title: DocuMenTor
----
+
 <section class="container hero">
   <div class="left">
-    <h1>DocuMenTor</h1>
+    <h1></h1>
     <p>Generate, validate and maintain documentation with ease. Lightweight, extensible and focused on developer workflows.</p>
     <p>
       <a class="cta" href="#get-started">Get started</a>
