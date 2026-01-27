@@ -33,7 +33,7 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#02060a 0%,var(
 .hero .left{flex:1;max-width:640px}
 .hero h1{font-size:48px;margin:0 0 12px;line-height:1.02}
 .hero p{color:var(--muted);font-size:18px;margin:0 0 18px}
-.cta{display:inline-block;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#021017;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+.cta{display:inline-block;background:#5b4f9e;color:#ffffff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
 
 .site-top-space{height:140px}
 main{padding:36px 0}
@@ -62,7 +62,7 @@ main{padding:36px 0}
 
 /* Card lift + accent bar */
 .card{position:relative;overflow:visible;transition:transform 200ms ease, box-shadow 200ms ease}
-.card::before{content:'';position:absolute;left:18px;top:-10px;width:56px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--accent),var(--accent-2));opacity:0.95}
+.card::before{content:'';position:absolute;left:18px;top:-10px;width:56px;height:6px;border-radius:6px;background:#5b4f9e;opacity:0.95}
 .card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(2,6,10,0.45)}
 
 /* Headings and section spacing */
@@ -84,9 +84,9 @@ section.container{padding-top:28px;padding-bottom:28px}
 /* Small utility helpers */
 .muted{color:var(--muted)}
 .text-center{text-align:center}
-/* colorful top band */
-.color-top{height:160px;background:#37124a;width:100%;position:relative}
-.color-top::after{content:'';position:absolute;left:0;right:0;bottom:-48px;height:96px;background:linear-gradient(180deg,rgba(55,18,74,0) 0%, #ffffff 100%);border-bottom-left-radius:60% 48px;border-bottom-right-radius:60% 48px}
+/* Clean top band - solid purple */
+.color-top{height:140px;background:#4a3a6b;width:100%;position:relative}
+.color-top::after{content:'';position:absolute;left:0;right:0;bottom:-36px;height:72px;background:linear-gradient(180deg,rgba(74,58,107,0) 0%, #ffffff 100%);}
 
 /* ensure content sits slightly overlapping the band */
 .site-top-space{height:120px}
