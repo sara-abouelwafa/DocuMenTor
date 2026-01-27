@@ -9,28 +9,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+    <!-- Left sidebar navigation -->
+    <aside class="sidebar" role="navigation" aria-label="Sidebar navigation">
+      <div class="sidebar-header">
+        <a href="{{ site.baseurl }}/" class="sidebar-logo">{{ site.title }}</a>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="{{ site.baseurl }}/" class="sidebar-link">
+          <span class="material-icons">home</span>
+          <span>Home</span>
+        </a>
+        <a href="https://github.com/{{ site.owner }}/{{ site.title }}" class="sidebar-link" target="_blank">
+          <span class="material-icons">code</span>
+          <span>GitHub</span>
+        </a>
+        <a href="{{ site.baseurl }}/docs/" class="sidebar-link">
+          <span class="material-icons">description</span>
+          <span>Docs</span>
+        </a>
+        <a href="{{ site.baseurl }}/about.html" class="sidebar-link">
+          <span class="material-icons">info</span>
+          <span>About</span>
+        </a>
+        <a href="mailto:your-email@example.com" class="sidebar-link">
+          <span class="material-icons">email</span>
+          <span>Contact</span>
+        </a>
+      </nav>
+    </aside>
+
     <!-- colorful top band similar to the requested design -->
     <div class="color-top" aria-hidden="true"></div>
 
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="{{ site.baseurl }}/"><span class="logo-accent">{{ site.title }}</span></a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/about.html">About</a>
-          <a href="{{ site.baseurl }}/docs/">Docs</a>
-        </nav>
-      </div>
-    </header>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="logo" href="{{ site.baseurl }}/"><span class="logo-accent">{{ site.title }}</span></a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about.html">About</a>
+            <a href="{{ site.baseurl }}/docs/">Docs</a>
+          </nav>
+        </div>
+      </header>
 
-    <main>
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
 
-    <footer class="site-footer">
-      <div class="container">© {{ site.time | date: "%Y" }} {{ site.title }}</div>
-    </footer>
+      <footer class="site-footer">
+        <div class="container">© {{ site.time | date: "%Y" }} {{ site.title }}</div>
+      </footer>
+    </div>
   </body>
 </html>
