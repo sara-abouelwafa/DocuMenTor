@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DocuMenTor — Home</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      /* minimal page layout if no external stylesheet is present */
+      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; padding: 2rem; }
+      .videos { display: grid; grid-template-columns: 1fr; gap: 1.5rem; max-width: 900px; }
+      @media(min-width:800px){ .videos{ grid-template-columns: 1fr 1fr; } }
+      .video-card{ background: #fff; border: 1px solid #e6e6e6; padding: .75rem; border-radius: 6px; }
+      .video-card h3{ margin: .25rem 0 .5rem; font-size: 1rem; }
+      video{ width:100%; height:auto; background:#000; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to DocuMenTor</h1>
+      <p>Below are two demo videos included from the <code>docs/assets</code> folder.</p>
+
+      <section class="videos">
+        <article class="video-card">
+          <h3>Website demo</h3>
+          <video controls playsinline>
+            <source src="assets/website.mp4" type="video/mp4">
+           
+            <!-- fallback -->
+            Your browser does not support the video element. You can <a href="assets/website.mov">download the website demo</a> instead.
+          </video>
+        </article>
+
+        <article class="video-card">
+          <h3>Plugin demo</h3>
+          <video controls playsinline>
+            <source src="assets/plugin.mp4" type="video/mp4">
+          
+            <!-- fallback -->
+            Your browser does not support the video element. You can <a href="assets/plugin.mov">download the plugin demo</a> instead.
+          </video>
+        </article>
+      </section>
+
+    </main>
+  </body>
+</html>
