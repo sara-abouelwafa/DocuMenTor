@@ -6,22 +6,14 @@ title: DocuMenTor Project Website
 <section class="container hero">
   <div class="left">
     <h1></h1>
-    <p>DocuMenTor combines a DSL for defining the DMS metamodel with an au-
-tomated generation layer that transforms the DSL specifications into complete,
-executable Python/Flask web applications.</p>
+    <p>DocuMenTor combines a DSL for defining the DMS metamodel with an automated generation layer that transforms the DSL specifications into complete, executable Python/Flask web applications.</p>
     <p>
       <a class="cta" href="#get-started">Get started</a>
     </p>
     <div class="card-grid">
       <article class="card">
         <h3>The DocuMenTor Environment</h3>
-        <p>The provided DSL implemented with EMF/Xtext
-allows users to create textual instances describing the DMSs to generate, and
-declaring their sections, like slots, document types, and other metadata that may
-vary between each instance. Additionally, the DocuMenTor engine includes a
-code generator that transforms such models into the pure Flask/Python, HTML,
-CSS, and JavaScript files that constitute the generated DMS web applications
-which are automatically deployed.</p>
+        <p>The provided DSL implemented with EMF/Xtext allows users to create textual instances describing the DMSs to generate, and declaring their sections, like slots, document types, and other metadata that may vary between each instance. Additionally, the DocuMenTor engine includes a code generator that transforms such models into the pure Flask/Python, HTML, CSS, and JavaScript files that constitute the generated DMS web applications which are automatically deployed.</p>
       </article>
       <article class="card">
         <h3>Video Demo</h3>
