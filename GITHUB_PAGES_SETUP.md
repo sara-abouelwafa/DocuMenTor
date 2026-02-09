@@ -1,6 +1,6 @@
 # GitHub Pages Setup Instructions
 
-This repository is configured with GitHub Pages infrastructure. Follow these steps to enable the site:
+This repository is configured with GitHub Pages infrastructure and **automated deployment via GitHub Actions**. Follow these steps to enable the site:
 
 ## Current Status
 
@@ -11,10 +11,43 @@ This repository is configured with GitHub Pages infrastructure. Follow these ste
 - CSS styling (`docs/assets/css/style.css`)
 - Video assets included
 - README with site link
+- ✨ **GitHub Actions workflow** (`.github/workflows/jekyll-gh-pages.yml`)
 
-## Enabling GitHub Pages
+## Enabling GitHub Pages (Automated Method - Recommended)
 
-To activate the GitHub Pages site at https://sara-abouelwafa.github.io/DocuMenTor/:
+This repository includes a GitHub Actions workflow that automatically builds and deploys the site. To enable it:
+
+1. **Merge this PR** to your main branch (or master)
+   
+2. **Enable GitHub Pages with GitHub Actions** in repository settings:
+   - Go to: https://github.com/sara-abouelwafa/DocuMenTor/settings/pages
+   - Under "Build and deployment" → "Source", select:
+     - **Source**: `GitHub Actions`
+   - Click "Save"
+
+3. **Trigger the deployment**:
+   - The workflow will automatically run when you merge to main/master
+   - Or manually trigger it from the Actions tab
+   - Go to: https://github.com/sara-abouelwafa/DocuMenTor/actions
+   - Select "Deploy Jekyll site to Pages"
+   - Click "Run workflow"
+
+4. **Wait for deployment**
+   - The GitHub Actions workflow will build and deploy automatically
+   - This typically takes 1-2 minutes
+   - Monitor progress in the "Actions" tab
+
+5. **Verify the site**
+   - Visit: https://sara-abouelwafa.github.io/DocuMenTor/
+   - The site should display with:
+     - Project description
+     - DocuMenTor Environment details
+     - Video demos
+     - Authors and publications
+
+## Alternative: Manual Configuration Method
+
+If you prefer traditional GitHub Pages deployment without Actions:
 
 1. **Merge this PR** to your main branch
    
@@ -25,18 +58,9 @@ To activate the GitHub Pages site at https://sara-abouelwafa.github.io/DocuMenTo
      - Folder: `/docs`
    - Click "Save"
 
-3. **Wait for deployment**
-   - GitHub Actions will automatically build and deploy the site
-   - This typically takes 1-2 minutes
-   - Check the "Actions" tab to monitor deployment status
+3. **Wait for automatic build** (~1-2 minutes)
 
-4. **Verify the site**
-   - Visit: https://sara-abouelwafa.github.io/DocuMenTor/
-   - The site should display with:
-     - Project description
-     - DocuMenTor Environment details
-     - Video demos
-     - Authors and publications
+4. **Verify the site** at https://sara-abouelwafa.github.io/DocuMenTor/
 
 ## Site Structure
 
@@ -52,7 +76,23 @@ docs/
 │   └── website.mov      # Website demo
 ├── index.md             # Homepage content
 └── index.html           # Static fallback
+
+.github/
+└── workflows/
+    └── jekyll-gh-pages.yml  # Automated deployment workflow
 ```
+
+## GitHub Actions Workflow Benefits
+
+The included GitHub Actions workflow (`.github/workflows/jekyll-gh-pages.yml`) provides:
+
+- ✅ **Automatic deployment** on every push to main/master
+- ✅ **Manual trigger option** from the Actions tab
+- ✅ **Proper permissions** configured for Pages deployment
+- ✅ **Ruby and Jekyll setup** handled automatically
+- ✅ **Build caching** for faster deployments
+- ✅ **Production environment** configuration
+- ✅ **Concurrency control** to prevent deployment conflicts
 
 ## Configuration Details
 
