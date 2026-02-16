@@ -45,3 +45,24 @@ title: DocuMenTor Project Website
     </div>
   </div>
 </section>
+
+<section class="container" id="glossary" style="margin-top: 48px;">
+  <h2 style="margin-bottom: 24px; color: #0b1220;">Glossary / Glosario</h2>
+  <div class="card">
+    <h3>Certificate of Evaluation of the Training Project Report and Doctoral Thesis</h3>
+    <h4 style="color: #5b4f9e; font-size: 16px; margin-top: 8px;">Certificado de evaluación de la memoria del proyecto formativo y de la tesis doctoral</h4>
+    <p style="margin-top: 16px;"><strong>English:</strong> This is an official document issued by academic institutions (typically universities) to certify the evaluation results of two key academic documents:</p>
+    <ul style="margin-left: 24px; margin-top: 8px;">
+      <li><strong>Training Project Report (Memoria del proyecto formativo):</strong> A comprehensive document describing a student's training or research project, including objectives, methodology, and results.</li>
+      <li><strong>Doctoral Thesis (Tesis doctoral):</strong> A dissertation submitted by a doctoral candidate presenting original research and findings.</li>
+    </ul>
+    <p style="margin-top: 12px;">This certificate documents the formal evaluation process, including assessment by committee members, scores, and official approval status. It is commonly used in Spanish academic systems.</p>
+    <p style="margin-top: 16px;"><strong>Español:</strong> Este es un documento oficial emitido por instituciones académicas (típicamente universidades) para certificar los resultados de la evaluación de dos documentos académicos clave:</p>
+    <ul style="margin-left: 24px; margin-top: 8px;">
+      <li><strong>Memoria del proyecto formativo:</strong> Un documento exhaustivo que describe el proyecto de formación o investigación de un estudiante, incluyendo objetivos, metodología y resultados.</li>
+      <li><strong>Tesis doctoral:</strong> Una disertación presentada por un candidato doctoral que presenta investigación y hallazgos originales.</li>
+    </ul>
+    <p style="margin-top: 12px;">Este certificado documenta el proceso de evaluación formal, incluyendo la valoración por parte de los miembros del comité, las calificaciones y el estado de aprobación oficial.</p>
+    <p style="margin-top: 16px;"><strong>العربية:</strong> هذه وثيقة رسمية تصدرها المؤسسات الأكاديمية (الجامعات عادةً) للتصديق على نتائج تقييم وثيقتين أكاديميتين رئيسيتين: تقرير المشروع التدريبي وأطروحة الدكتوراه. تُوثق هذه الشهادة عملية التقييم الرسمية، بما في ذلك التقييم من قبل أعضاء اللجنة والدرجات وحالة الموافقة الرسمية.</p>
+  </div>
+</section>
