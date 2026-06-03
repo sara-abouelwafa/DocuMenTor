@@ -40,7 +40,7 @@ title: DocuMenTor Project Website
       </article>
       <article class="card">
         <h3>Related Publications</h3>
-        <p>Abouelwafa, S., Gómez-Abajo, P., Arévalo Sarrate, C. (en preparación). <em>Towards a Model-based Framework for the Generation of Document Management Systems</em>.</p>
+        <p>Abouelwafa, S., Gómez-Abajo, P., Arévalo Sarrate, C. <em>Towards a Model-based Framework for the Generation of Document Management Systems</em>.</p>
       </article>
     </div>
   </div>
