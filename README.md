@@ -1,4 +1,22 @@
-# DocuMenTor Project
+<p align="center">
+  <a href="https://sara-abouelwafa.github.io/DocuMenTor/">
+    <img src="https://www.gomezabajo.es/pablo/images/documentor.png" width="120" height="120" alt="DocuMenTor logo" />
+  </a>
+</p>
+
+<h1 align="center">DocuMenTor</h1>
+
+<p align="center"><i>A model-based framework for describing document management systems</i></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version 1.0">
+  <a href="https://img.shields.io/github/contributors/sara-abouelwafa/DocuMenTor"><img src="https://img.shields.io/github/contributors/sara-abouelwafa/DocuMenTor" alt="Contributors"></a>
+  <a href="https://github.com/sara-abouelwafa/DocuMenTor/network/members"><img src="https://img.shields.io/github/forks/sara-abouelwafa/DocuMenTor" alt="Forks"></a>
+  <a href="https://github.com/sara-abouelwafa/DocuMenTor/stargazers"><img src="https://img.shields.io/github/stars/sara-abouelwafa/DocuMenTor" alt="Stars"></a>
+  <a href="https://raw.githubusercontent.com/sara-abouelwafa/DocuMenTor/master/LICENSE"><img src="https://img.shields.io/github/license/sara-abouelwafa/DocuMenTor" alt="License"></a>
+  <a href="https://img.shields.io/github/issues/sara-abouelwafa/DocuMenTor"><img src="https://img.shields.io/github/issues/sara-abouelwafa/DocuMenTor" alt="Issues"></a>
+</p>
+
 
 **🌐 [Visit the DocuMenTor Project Website](https://sara-abouelwafa.github.io/DocuMenTor/)**
 
